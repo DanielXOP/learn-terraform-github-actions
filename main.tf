@@ -11,11 +11,11 @@ terraform {
   }
   required_version = "~> 1.0"
 
-  backend "remote" {
-    organization = "AGC-Terraform-Demos-For-Oz"
+  cloud {
+    organization = "daniel-gh-check"
 
     workspaces {
-      name = "demo-GitHub-actions"
+      name = "GitDaniel-check"
     }
   }
 }
